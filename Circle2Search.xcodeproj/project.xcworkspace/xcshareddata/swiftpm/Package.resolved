@@ -1,0 +1,77 @@
+{
+  "pins" : [
+    {
+      "identity" : "doubleeyeopensource",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lightning-Lion/DoubleEyeOpenSource.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "136b15259ae299d7a302a5b7ff6e6b7246cc60cb"
+      }
+    },
+    {
+      "identity" : "mixedrealitykitopensource",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Lightning-Lion/MixedRealityKitOpenSource",
+      "state" : {
+        "branch" : "main",
+        "revision" : "d9ecd2534da8bfd1a1ce8991d57b9df862dc3c33"
+      }
+    },
+    {
+      "identity" : "opencv-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yeatse/opencv-spm.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9b5943c3095350dedfb2bebd276f05643b7045d1"
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms",
+      "state" : {
+        "revision" : "f6919dfc309e7f1b56224378b11e28bab5bccc42",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections",
+      "state" : {
+        "revision" : "671108c96644956dddcd89dd59c203dcdb36cec7",
+        "version" : "1.1.4"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics.git",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
+      }
+    },
+    {
+      "identity" : "swiftui-shimmer",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/markiv/SwiftUI-Shimmer",
+      "state" : {
+        "revision" : "0226e21f9bf355d40e07e5f5e1c33679d50e167f",
+        "version" : "1.5.1"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "c761b43aa03f15f00df64744e70399d78c3bee96"
+      }
+    }
+  ],
+  "version" : 2
+}

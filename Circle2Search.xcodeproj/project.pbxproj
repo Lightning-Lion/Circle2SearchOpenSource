@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B442E0D42D48F4150061A4B0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = B442E0D32D48F4150061A4B0 /* RealityKitContent */; };
+		B442E0ED2D48F49D0061A4B0 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = B442E0EC2D48F49D0061A4B0 /* Algorithms */; };
+		B442E0F02D48F4EE0061A4B0 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = B442E0EF2D48F4EE0061A4B0 /* Collections */; };
+		B442E35F2D4A1CE40061A4B0 /* MixedRealityKit in Frameworks */ = {isa = PBXBuildFile; productRef = B442E35E2D4A1CE40061A4B0 /* MixedRealityKit */; };
+		B442E49E2D4A50D70061A4B0 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B442E49D2D4A50D70061A4B0 /* README.md */; };
+		B4B393E12D586AC20045F3BF /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = B4B393E02D586AC20045F3BF /* Shimmer */; };
+		B4E87BCD2D58800B0060FBC5 /* MixedRealityKit in Frameworks */ = {isa = PBXBuildFile; productRef = B4E87BCC2D58800B0060FBC5 /* MixedRealityKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B442E0CE2D48F4150061A4B0 /* Circle2Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Circle2Search.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B442E0D22D48F4150061A4B0 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		B442E49D2D4A50D70061A4B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B442E0E52D48F4160061A4B0 /* Exceptions for "Circle2Search" folder in "Circle2Search" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B442E0CD2D48F4150061A4B0 /* Circle2Search */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B442E0D02D48F4150061A4B0 /* Circle2Search */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B442E0E52D48F4160061A4B0 /* Exceptions for "Circle2Search" folder in "Circle2Search" target */,
+			);
+			path = Circle2Search;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B442E0CB2D48F4150061A4B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4E87BCD2D58800B0060FBC5 /* MixedRealityKit in Frameworks */,
+				B442E35F2D4A1CE40061A4B0 /* MixedRealityKit in Frameworks */,
+				B4B393E12D586AC20045F3BF /* Shimmer in Frameworks */,
+				B442E0F02D48F4EE0061A4B0 /* Collections in Frameworks */,
+				B442E0ED2D48F49D0061A4B0 /* Algorithms in Frameworks */,
+				B442E0D42D48F4150061A4B0 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B442E0C52D48F4150061A4B0 = {
+			isa = PBXGroup;
+			children = (
+				B442E49D2D4A50D70061A4B0 /* README.md */,
+				B442E0D02D48F4150061A4B0 /* Circle2Search */,
+				B442E0D12D48F4150061A4B0 /* Packages */,
+				B442E35D2D4A1CE40061A4B0 /* Frameworks */,
+				B442E0CF2D48F4150061A4B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B442E0CF2D48F4150061A4B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B442E0CE2D48F4150061A4B0 /* Circle2Search.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B442E0D12D48F4150061A4B0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				B442E0D22D48F4150061A4B0 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		B442E35D2D4A1CE40061A4B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B442E0CD2D48F4150061A4B0 /* Circle2Search */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B442E0E62D48F4160061A4B0 /* Build configuration list for PBXNativeTarget "Circle2Search" */;
+			buildPhases = (
+				B442E0CA2D48F4150061A4B0 /* Sources */,
+				B442E0CB2D48F4150061A4B0 /* Frameworks */,
+				B442E0CC2D48F4150061A4B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B442E0D02D48F4150061A4B0 /* Circle2Search */,
+			);
+			name = Circle2Search;
+			packageProductDependencies = (
+				B442E0D32D48F4150061A4B0 /* RealityKitContent */,
+				B442E0EC2D48F49D0061A4B0 /* Algorithms */,
+				B442E0EF2D48F4EE0061A4B0 /* Collections */,
+				B442E35E2D4A1CE40061A4B0 /* MixedRealityKit */,
+				B4B393E02D586AC20045F3BF /* Shimmer */,
+				B4E87BCC2D58800B0060FBC5 /* MixedRealityKit */,
+			);
+			productName = Circle2Search;
+			productReference = B442E0CE2D48F4150061A4B0 /* Circle2Search.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B442E0C62D48F4150061A4B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B442E0CD2D48F4150061A4B0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = B442E0C92D48F4150061A4B0 /* Build configuration list for PBXProject "Circle2Search" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B442E0C52D48F4150061A4B0;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B442E0EB2D48F49D0061A4B0 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				B442E0EE2D48F4EE0061A4B0 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				B4B393DF2D586AC20045F3BF /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
+				B4E87BCB2D58800B0060FBC5 /* XCRemoteSwiftPackageReference "MixedRealityKitOpenSource" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B442E0CF2D48F4150061A4B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B442E0CD2D48F4150061A4B0 /* Circle2Search */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B442E0CC2D48F4150061A4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B442E49E2D4A50D70061A4B0 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B442E0CA2D48F4150061A4B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B442E0E72D48F4160061A4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Circle2Search/Circle2Search.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Circle2Search/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.cropframe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Circle2Search/Circle2Search_BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		B442E0E82D48F4160061A4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Circle2Search/Circle2Search.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Circle2Search/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompanyname.cropframe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Circle2Search/Circle2Search_BridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		B442E0E92D48F4160061A4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		B442E0EA2D48F4160061A4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B442E0C92D48F4150061A4B0 /* Build configuration list for PBXProject "Circle2Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B442E0E92D48F4160061A4B0 /* Debug */,
+				B442E0EA2D48F4160061A4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B442E0E62D48F4160061A4B0 /* Build configuration list for PBXNativeTarget "Circle2Search" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B442E0E72D48F4160061A4B0 /* Debug */,
+				B442E0E82D48F4160061A4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B442E0EB2D48F49D0061A4B0 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		B442E0EE2D48F4EE0061A4B0 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.4;
+			};
+		};
+		B4B393DF2D586AC20045F3BF /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.1;
+			};
+		};
+		B4E87BCB2D58800B0060FBC5 /* XCRemoteSwiftPackageReference "MixedRealityKitOpenSource" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Lightning-Lion/MixedRealityKitOpenSource";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B442E0D32D48F4150061A4B0 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		B442E0EC2D48F49D0061A4B0 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B442E0EB2D48F49D0061A4B0 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		B442E0EF2D48F4EE0061A4B0 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B442E0EE2D48F4EE0061A4B0 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		B442E35E2D4A1CE40061A4B0 /* MixedRealityKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MixedRealityKit;
+		};
+		B4B393E02D586AC20045F3BF /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4B393DF2D586AC20045F3BF /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
+		B4E87BCC2D58800B0060FBC5 /* MixedRealityKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B4E87BCB2D58800B0060FBC5 /* XCRemoteSwiftPackageReference "MixedRealityKitOpenSource" */;
+			productName = MixedRealityKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B442E0C62D48F4150061A4B0 /* Project object */;
+}
