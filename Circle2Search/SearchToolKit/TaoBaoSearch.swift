@@ -26,6 +26,7 @@ struct TaoBaoSearchView: View {
             
             if !isDoneSearch {
                 TaoBaoSearchLoadingView()
+                    .modifier(ReplaceToTipIfShownMoreThan5Seconds())
                     .transition(.blurReplace)
             }
         }
@@ -74,6 +75,47 @@ struct TaoBaoSearchLoadingView: View {
                 .lineLimit(1)
                 .font(.title)
         }
+    }
+}
+
+// 淘宝的搜索页结构可能经常更改，需要持续维护
+fileprivate
+struct ReplaceToTipIfShownMoreThan5Seconds: ViewModifier {
+    @State
+    private var waitingTask:Task<Void,Never>?
+    @State
+    private var showTip = false
+    @Environment(\.openURL)
+    private var openURL
+    func body(content: Content) -> some View {
+        VStack {
+            if showTip {
+                VStack(alignment: .leading, content: {
+                    Text("请")
+                        .bold()
+                    Button("联系开发者", action: {
+                        openURL(URL(string: "https://www.feishu.cn/invitation/page/add_contact/?token=d4br5909-0f29-4e22-adf8-aebc814e7c5d&unique_id=Zz2qoXiCUqhYjKsrHBrGnA==")!/*硬编码的不会解包失败*/)
+                    })
+                    Text("以修复此问题")
+                        .bold()
+                })
+                    .padding()
+                    .transition(.blurReplace)
+            } else {
+                content
+                    .transition(.blurReplace)
+            }
+        }
+            .task(id: "onLoad", {
+                waitingTask = Task { @MainActor in
+                    do {
+                        try await Task.sleep(for: .seconds(5))
+                        withAnimation(.smooth, { showTip = true })
+                    } catch {
+                        os_log("\(error.localizedDescription)")
+                    }
+                }
+            })
     }
 }
 
